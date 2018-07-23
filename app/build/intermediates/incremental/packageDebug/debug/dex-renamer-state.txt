@@ -1,0 +1,4 @@
+#Sun May 20 10:00:07 CST 2018
+base.0=C\:\\Users\\wyx\\Desktop\\OpenCV_HandFingerRecognition\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+path.0=classes.dex
+renamed.0=classes.dex
