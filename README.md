@@ -1,16 +1,15 @@
-# Demo OpenCV Hand Finger Recognition
+# OpenCV In-air Hand-writting method for English & Chinese Letter based on RGB Camera
 
-Forked from https://github.com/bicho/hand_finger_recognition_android all credits to @h3ct0r i'm just upgrade the code to Android Studio &  OpenCV-3.1.0 Android SDK.
+# Algorithm
+1. Using skin color segmentation to extract hand area and exclude close color area and arm.
+2. Tracking finger movement through opencv and using number of fingers as sign of input state.
+3. Processing the recorded track and using OCR module to recognize the track as letter. Also build a CNN recognition model in computer.
 
 ## Installation
-...
-
-## Dependencies
-http://opencv.org/downloads.html
+You can find the demo app in google store and app store. "Ihand" & "ARhand"
 
 ## References to hand gesture recognition
+* https://github.com/bicho/hand_finger_recognition_android
 * http://eaglesky.github.io/2015/12/26/HandGestureRecognition/
 * http://www.intorobotics.com/9-opencv-tutorials-hand-gesture-detection-recognition/
 
-## Credits
- * [@hector](https://github.com/h3ct0r)
